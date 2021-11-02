@@ -2,6 +2,9 @@
 
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+# POETRY
+export PATH="$HOME/.poetry/bin:$PATH"
+
 # JAVA
 export JAVA_HOME=/usr/lib/jvm/jdk8u302-b08
 export PATH=$PATH:$JAVA_HOME/bin
@@ -121,3 +124,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+alias python="python3.9"
+
